@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(../imags/Zoro2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+    background-attachment: fixed;
+}
+
+#outer {
+    margin: 50px 100px;
+    border: 1px solid red;
+}
+
+#outer::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.chooses {
+    width: 100%;
+    background-color: rgba(71, 237, 129, .6);
+    font-size: 60px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+/* ul{
+    height: 100%;
+} */
+ul::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+ul li {
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 30px 0 !important;
+    padding: 0 !important;
+}
+
+ul li div {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.bgimg1 {
+    background-image: url(../imags/x1.jpg);
+}
+
+.bgimg2 {
+    background-image: url(../imags/x2.jpg);
+}
+
+.bgimg3 {
+    background-image: url(../imags/x3.jpg);
+}
+
+.bgimg4 {
+    background-image: url(../imags/x4.jpg);
+}
+
+.bgimg5 {
+    background-image: url(../imags/x5.jpg);
+}
+
+.bgimg6 {
+    background-image: url(../imags/x6.jpg);
+}
+
+.bgimg7 {
+    background-image: url(../imags/x7.jpg);
+}
+
+.bgimg8 {
+    background-image: url(../imags/x8.jpg);
+}
+
+.bgimg9 {
+    background-image: url(../imags/x9.jpg);
+}
+
+.bgimg10 {
+    background-image: url(../imags/x10.jpg);
+}
+
+.bgimg11 {
+    background-image: url(../imags/x11.jpg);
+}
+
+.bgimg12 {
+    background-image: url(../imags/x12.jpg);
+}
+
+.bgimg13 {
+    background-image: url(../imags/x13.jpg);
+}
+
+.bgimg14 {
+    background-image: url(../imags/x14.jpg);
+}
+
+.bgimg15 {
+    background-image: url(../imags/x15.jpg);
+}
+
+.bgimg16 {
+    background-image: url(../imags/x16.jpg);
+}
+.bgimg17 {
+    background-image: url(../imags/x17.jpg);
+}
+.bgimg18 {
+    background-image: url(../imags/x18.jpg);
+}
+.bgimg19 {
+    background-image: url(../imags/x19.jpg);
+}
+.bgimg20 {
+    background-image: url(../imags/x20.jpg);
+}
+
+a {
+    color: hotpink;
+}
+
+a:hover {
+    text-decoration: none;
+    color: yellowgreen;
+}
